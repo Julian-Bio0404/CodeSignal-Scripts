@@ -1,8 +1,10 @@
 """
 Problem:
     - You are given a two-digit integer n. Return the sum of its digits.
+
 Input: 
-    - int: A positive two-digit integer.
+    - n: A positive two-digit integer.
+
 Output:
     - The sum of the first and second digits of the input number.
 """

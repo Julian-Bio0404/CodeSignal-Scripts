@@ -5,10 +5,13 @@ Problem:
     same amount of candy as any other child. Determine how many
     pieces of candy will be eaten by all the children together.
     Individual pieces of candy cannot be split.
+
 Input:
-    - int: The number of children.
+    - n: The number of children.
+    - m: The number of pieces of candy.
+
 Output:
-    - The number of pieces of candy.
+    - The total number of pieces of candy.
 """
 
 from math import floor
