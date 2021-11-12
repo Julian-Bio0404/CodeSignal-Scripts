@@ -28,10 +28,8 @@ Output:
 
 
 def metroCard(lastNumberOfDays: int) -> list[int]:
-    days = [31]
     if lastNumberOfDays == 31:
-        days += [28, 30]
-    return sorted(days)
-
+        return [28, 30, 31]
+    return [31]
 
 print(metroCard(30))
