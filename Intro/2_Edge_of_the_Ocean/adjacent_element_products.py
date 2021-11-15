@@ -9,10 +9,7 @@ Output:
 """
 
 
-from typing import List
-
-
-def adjacentElementsProduct(inputArray: List[int]) -> int:
+def adjacentElementsProduct(inputArray: list[int]) -> int:
     max = inputArray[0] * inputArray[1]
     
     for i in range(len(inputArray)):

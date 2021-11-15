@@ -13,8 +13,10 @@ Example:
     - For statues = [6, 2, 3, 8], the output should be
       makeArrayConsecutive2(statues) = 3
     Ratiorg needs statues of sizes 4, 5 and 7.
+
 Input:
-    - array: An array of distinct non-negative integers.
+    - statues: An array of distinct non-negative integers.
+
 Output:
     - The minimal number of statues that need to be added
     to existing statues such that it contains every integer
@@ -22,10 +24,7 @@ Output:
 """
 
 
-from typing import List
-
-
-def makeArrayConsecutive2(statues: List[int]) -> int:
+def makeArrayConsecutive2(statues: list[int]) -> int:
     statues = sorted(statues, reverse=True)
     missing_statues = 0
     
